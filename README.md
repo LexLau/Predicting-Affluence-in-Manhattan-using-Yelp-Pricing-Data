@@ -1,8 +1,8 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Predicting Affluence in Manhattan using Yelp Pricing Data
 
 
-<img src="../images/yelp pic.png" width="300px">
-<img src="../images/census pic.png" width="300px">
+<img src="./images/yelp pic.png" width="300px">
+<img src="./images/census pic.png" width="300px">
 
 ### Authors:
 - [Alex Lau](https://www.linkedin.com/in/alex-lau-data-science/)
@@ -10,7 +10,7 @@
 - [Julie Vovchenko](https://www.linkedin.com/in/julievovchenko/)
 - [Kelly Wu](https://www.linkedin.com/in/kelly-wu-nj/)
 
-<img src="../images/Manhattan Skyline.jpg" width="800px"> 
+<img src="./images/Manhattan Skyline.jpg" width="800px"> 
 
 (Manhattan's Skyline)
 
