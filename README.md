@@ -24,12 +24,12 @@
 - [Sources](#Sources)
 
 ---
+
 ### Problem Statement
 
 According to [FEMA](https://www.fema.gov/blog/2015-04-29/everyone-must-be-prepared-emergencies), the importance of preparing ourselves for disasters is universal. Thus, when these situations occur, it is a difficult task for organizations or nations to decide where to send initial resources. Our client, [New Light Technologies](https://newlighttechnologies.com/), is interested in utilizing public and easily accessible data as a practical solution to help organizations or nations with this pressing matter. Specificically, **can Yelp cost estimates ($, $$, $$$) determine neighborhood affluence?** 
 
 Given the neighborhood affluence, it is a great source for determining disaster-resistance. Therefore, scraping Yelp's data by using [Yelp's API](https://www.yelp.com/fusion) and connecting zipcodes from business locations to [United State Census](https://2020census.gov/?cid=20002:%2Bus%20%2Bcensus:sem.ga:p:dm:en:&utm_source=sem.ga&utm_medium=p&utm_campaign=dm:en&utm_content=20002&utm_term=%2Bus%20%2Bcensus) data, we can determine if Yelp's data correlates with affluence. We also decided our location for our research will be the borough of Manhattan because there were a number of natural disasters in this location and this location is extremely diverse. We will use various supervised machine learning models and we will use our models' accuracy scores as the way to determine the best model.  
-
 
 ---
 
@@ -67,3 +67,17 @@ Yelp cost estimates can determine a neighborhood’s affluence. It isn’t perfe
 
 ### Sources
 
+- [Yelp Fusion API](https://www.yelp.com/fusion)
+- [Yelp API documentation](https://www.yelp.com/developers/documentation/v3/business_search)
+- [Store API Credentials For Open Source Projects](https://chrisalbon.com/python/basics/store_api_credentials_for_open_source_projects/) 
+- [Yelp API documentation/Businesses](https://api.yelp.com/v3/businesses/search)
+- [ZIP Code Definitions of New York City Neighborhoods](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm)
+- [FEMA](https://www.fema.gov/blog/2015-04-29/everyone-must-be-prepared-emergencies)
+- [New Light Technologies](https://newlighttechnologies.com/)
+- [United State Census](https://2020census.gov/?cid=20002:%2Bus%20%2Bcensus:sem.ga:p:dm:en:&utm_source=sem.ga&utm_medium=p&utm_campaign=dm:en&utm_content=20002&utm_term=%2Bus%20%2Bcensus)
+- [Median income in the past 12 months (in 2018 inflation-adjusted dollars)](https://data.census.gov/cedsci/table?q=income&tid=ACSST1Y2018.S1903&t=Income%20%28Households,%20Families,%20Individuals%29&vintage=2018)
+- [How to add legend on Seaborn facetgrid bar plot](https://stackoverflow.com/questions/32261619/how-to-add-legend-on-seaborn-facetgrid-bar-plot/55953685)
+- [Zip Code Boundaries](https://data.cityofnewyork.us/widgets/i8iw-xf4u)
+- [Mapping with Matplotlib, Pandas, Geopandas and Basemap in Python](https://towardsdatascience.com/mapping-with-matplotlib-pandas-geopandas-and-basemap-in-python-d11b57ab5dac)
+- [Manhattan Yelp dollar vs Affluence](https://public.tableau.com/profile/alex.lau1352#!/vizhome/updatedManhattanyelpvsaffluence/Dashboard?publish=yes) 
+- [Household Income in Manhattan, New York County, New York (Borough)](https://statisticalatlas.com/county-subdivision/New-York/New-York-County/Manhattan/Household-Income)
