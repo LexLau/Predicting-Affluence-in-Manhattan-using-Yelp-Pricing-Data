@@ -1,8 +1,8 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Predicting Affluence in Manhattan using Yelp Pricing Data
 
 
-<img src="../images/yelp pic.png" width="300px">
-<img src="../images/census pic.png" width="300px">
+<img src="./images/yelp pic.png" width="300px">
+<img src="./images/census pic.png" width="300px">
 
 ### Authors:
 - [Alex Lau](https://www.linkedin.com/in/alex-lau-data-science/)
@@ -10,7 +10,7 @@
 - [Julie Vovchenko](https://www.linkedin.com/in/julievovchenko/)
 - [Kelly Wu](https://www.linkedin.com/in/kelly-wu-nj/)
 
-<img src="../images/Manhattan Skyline.jpg" width="800px"> 
+<img src="./images/Manhattan Skyline.jpg" width="800px"> 
 
 (Manhattan's Skyline)
 
@@ -39,7 +39,7 @@ We began by determing how large of a scope our Yelp data should be location wise
 
 Next, we pulled the Yelp data by using Yelp's API and collected the Census income data by filtering with Manhattan's zipcodes on the Census' website. The Yelp data was imported was in JSON format. Therefore, we need to create a dataframe in Pandas to have easier access to clean and manipulate through the data. For the Census data, it was already in a dataframe that we could manipulate through. 
 
-Once, we looked through the two dataframes, we looked for particular features. In the Yelp data, we primarily focused on cost estimates. In the census data, we primarily focused on household income. With creating these datasets, we did data cleaning in each. We checked for duplicate posts and missing values. We also dropped data that was not related and isolated data from columns that benefited to answering our problem statement. 
+Once, we looked through the two dataframes, we looked for particular features. In the Yelp data, we primarily focused on cost estimates. We also decided from exploring through the Yelp data, we would only focus on businesses that are restaurants because that was the majority of businesses in the data. In the census data, we primarily focused on household income. With creating these datasets, we did data cleaning in each. We checked for duplicate posts and missing values. We also dropped data that was not related and isolated data from columns that benefited to answering our problem statement. 
 
 Once our datasets were cleaned, we did some exploratory data analysis. We analyzed trends and correlations between median income and restaurants’ cost estimates through bar graphs and geomapping.
 
